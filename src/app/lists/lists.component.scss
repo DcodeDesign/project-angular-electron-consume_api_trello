@@ -1,0 +1,44 @@
+.container-lists {
+  overflow: hidden;
+  height: 100vh;
+
+  .content-lists {
+    display: inline-block;
+    position: relative;
+    overflow: auto;
+    height: calc(100vh - 125px);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: row;
+
+
+    .cards-lists {
+      color: rgb(23, 52, 83);
+      text-decoration: none;
+      margin: 10px;
+      display: table;
+      float: left;
+      box-sizing: content-box;
+      min-width: 200px;
+      min-height: 90px;
+      border-radius: 4px;
+      background: #e2e2e2;
+      box-shadow: 0 0 5px 1px #e7e7e7;
+      border: 1px solid rgb(23, 52, 83);
+
+      .title-list {
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        font-size: 16px;
+        background: #29578a;
+        background: rgb(41, 87, 138);
+        background: linear-gradient(170deg, rgb(36, 78, 122) 0%, rgb(23, 52, 83) 40%);
+        background: linear-gradient(170deg, #244e7a, #173453 40%);
+      }
+    }
+  }
+}
+
+

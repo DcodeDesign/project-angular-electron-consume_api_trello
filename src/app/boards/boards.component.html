@@ -1,0 +1,8 @@
+<a routerLink="/lists/{{item.id}}" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
+   class="cards-board" *ngFor="let item of boards" [ngStyle]="{'background-image': 'url(' + item.prefs.backgroundImage + ')'}">
+    <h3><span>{{item.name}}</span></h3>
+    <!--
+    <p>Id : <span>{{item.id}}</span></p>
+    <p>Url : <a href="{{item.url}}">{{item.url}}</a></p>
+    -->
+</a>

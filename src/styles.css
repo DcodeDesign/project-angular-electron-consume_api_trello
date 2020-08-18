@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../assets/css/photon.min.css";
+.noStyle {
+  border: none;
+  background: none;
+  font-weight: 500;
+  color: #666;
+}
+
+.noStyle .icon {
+  font-weight: 500;
+  color: #666;
+  outline: 0px;
+}
+
+.content {
+  padding: 15px;
+}
+
+button {
+  outline: 0px;
+}
+
+/*# sourceMappingURL=styles.css.map */

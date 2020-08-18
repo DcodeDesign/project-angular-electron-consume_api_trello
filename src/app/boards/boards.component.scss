@@ -1,0 +1,32 @@
+.cards-board {
+  color:white;
+  text-decoration: none;
+
+  margin: 10px;
+  padding: 10px;
+
+  display: table;
+  float: left;
+
+  box-sizing: content-box;
+
+  width: calc(25% - 40px);
+  height: 130px;
+
+  border-radius: 4px;
+
+  background-position:center center ;
+
+  background: #29578a;
+  background: rgb(41, 87, 138);
+  background: linear-gradient(170deg, rgb(36, 78, 122) 0%, rgb(23, 52, 83) 40%);
+  background: linear-gradient(170deg, #244e7a,#173453 40%);
+
+  background-size: cover;
+  box-shadow: 0 0 5px 1px #777;
+}
+
+.cards-board:hover {
+  opacity:0.7;
+}
+

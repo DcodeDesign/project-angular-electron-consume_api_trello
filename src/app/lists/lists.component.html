@@ -1,0 +1,10 @@
+<button (click)="reloadChildView()">Refresh</button>
+<div class="container-lists">
+    <div class="content-lists">
+        <div class="cards-lists" *ngFor="let list of lists">
+            <h3 class="title-list"><span>{{list.name}}</span></h3>
+            <button>+ Ajouter une carte</button>
+           <app-cards idList="{{list.id}}"></app-cards>
+        </div>
+    </div>
+</div>
